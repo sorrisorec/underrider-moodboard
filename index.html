@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Underrider — Moodboard</title>
+<meta name="description" content="Referências visuais para o fashion film da Underrider: Harley, estacionamento, luz improvisada e grão.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0b0a;--ink:#ecebe6;--dim:#8d8b84;--line:#26251f;--accent:#ffb000;--card:#121210}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+body::after{content:"";position:fixed;inset:-50%;pointer-events:none;z-index:50;opacity:.07;
+ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+ animation:grain .6s steps(4) infinite}
+@keyframes grain{0%{transform:translate(0,0)}25%{transform:translate(-3%,2%)}50%{transform:translate(2%,-3%)}75%{transform:translate(-2%,-1%)}}
+@media (prefers-reduced-motion:reduce){body::after{animation:none}}
+a{color:inherit}
+.wrap{max-width:1320px;margin:0 auto;padding:0 24px}
+.hero{border-bottom:1px solid var(--line);padding:56px 0 36px}
+.tag{font:600 11px/1 "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.hero h1{font:400 clamp(64px,13vw,184px)/.86 Anton,Impact,sans-serif;text-transform:uppercase;letter-spacing:-.01em;margin:18px 0 22px}
+.hero h1 span{color:transparent;-webkit-text-stroke:1.5px var(--ink)}
+.brief{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.brief div{background:var(--bg);padding:14px 16px}
+.brief b{display:block;font:600 10px/1 "JetBrains Mono",monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);margin-bottom:8px}
+nav{position:sticky;top:0;z-index:20;background:rgba(11,11,10,.88);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;gap:22px;overflow-x:auto;padding-top:12px;padding-bottom:12px;scrollbar-width:none}
+nav a{font:600 11px/1 "JetBrains Mono",monospace;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--dim);white-space:nowrap}
+nav a:hover{color:var(--accent)}
+section{padding:56px 0 8px}
+.sh{display:grid;grid-template-columns:auto 1fr auto;gap:20px;align-items:end;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:22px}
+.num{font:400 64px/.8 Anton,sans-serif;color:var(--accent)}
+.sh h2{font:400 30px/1 Anton,sans-serif;text-transform:uppercase;letter-spacing:.01em}
+.sh p{color:var(--dim);margin-top:6px;max-width:62ch}
+.count{font:600 11px "JetBrains Mono",monospace;color:var(--dim)}
+.grid{columns:4 260px;column-gap:16px}
+.card{display:block;break-inside:avoid;margin:0 0 16px;background:var(--card);border:1px solid var(--line);text-decoration:none;transition:border-color .2s,transform .2s}
+.card:hover{border-color:var(--accent);transform:translateY(-2px)}
+.media{background:#000;overflow:hidden}
+.media img{display:block;width:100%;height:auto;filter:contrast(1.08) saturate(.92)}
+.meta{padding:12px 14px 14px}
+.meta h3{font:500 15px/1.3 Inter,sans-serif}
+.meta p{color:var(--dim);font-size:13.5px;margin-top:6px}
+.by{display:inline-block;margin-top:10px;font:600 11px "JetBrains Mono",monospace;color:var(--accent)}
+footer{border-top:1px solid var(--line);margin-top:48px;padding:28px 0 48px;color:var(--dim);font-size:13px}
+@media (max-width:720px){.wrap{padding:0 16px}.brief{grid-template-columns:1fr 1fr}.num{font-size:44px}.sh h2{font-size:24px}.sh{gap:12px}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<div class="tag">Underrider · fashion film · moodboard</div>
+<h1>Park<br><span>Ride</span> Grain</h1>
+<div class="brief">
+<div><b>Marca</b>Underrider — apparel pra pilotos de drag race de moto</div>
+<div><b>Máquina</b>Harley-Davidson</div>
+<div><b>Locação</b>Estacionamento aberto (rooftop) e coberto, com prédios ao fundo</div>
+<div><b>Look</b>Contraste alto, luz improvisada quase natural, grão</div>
+</div>
+</div></header>
+<nav><div class="wrap"><a href="#base">00 Suas refs</a><a href="#coberto">01 Estacionamento coberto</a><a href="#aberto">02 Rooftop aberto</a><a href="#moto">03 Harley & cultura drag</a><a href="#luz">04 Luz improvisada & textura</a></div></nav>
+<main class="wrap">
+<section id="base"><header class="sh"><span class="num">00</span><div><h2>Suas refs</h2><p>As quatro que você mandou: o ponto de partida de linguagem, cor e câmera.</p></div><span class="count">4</span></header><div class="grid"><a class="card" href="https://www.instagram.com/p/DbLYnWKikNt/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DbLYnWKikNt.jpg" data-gif="gifs/DbLYnWKikNt.gif" alt="Crash zoom de lente broadcast"></div>
+<div class="meta"><h3>Crash zoom de lente broadcast</h3><p>Zoom brusco com vinheta de lente antiga de TV. Funciona bem pra entrar no rosto do piloto ou no tanque da Harley.</p><span class="by">@photoprosciutto ↗</span></div></a><a class="card" href="https://www.instagram.com/p/DVLoob0E7i6/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DVLoob0E7i6.jpg" data-gif="gifs/DVLoob0E7i6.gif" alt="Lookbook parado, rua real"></div>
+<div class="meta"><h3>Lookbook parado, rua real</h3><p>Câmera travada, modelo encostado no poste e luz do dia sem rebatedor. É a referência de styling e de pose.</p><span class="by">@belvet.jp ↗</span></div></a><a class="card" href="https://www.instagram.com/p/DWrP8iWCAji/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DWrP8iWCAji.jpg" data-gif="gifs/DWrP8iWCAji.gif" alt="Contra-plongée urbano"></div>
+<div class="meta"><h3>Contra-plongée urbano</h3><p>Lente grande-angular de baixo pra cima, prédios ao fundo e cor verde-oliva lavada. Feito com IA, então serve como mood e não como plano técnico.</p><span class="by">@pvlkrknv ↗</span></div></a><a class="card" href="https://www.instagram.com/p/DZf0fzxvP22/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DZf0fzxvP22.jpg" data-gif="gifs/DZf0fzxvP22.gif" alt="Grade de comercial com grão"></div>
+<div class="meta"><h3>Grade de comercial com grão</h3><p>Cor quente, preto levantado e nitidez de filme. Bom alvo de color grade.</p><span class="by">@tighekellner ↗</span></div></a></div></section>
+<section id="coberto"><header class="sh"><span class="num">01</span><div><h2>Estacionamento coberto · noite</h2><p>Fluorescente do teto, concreto, pilares e faixa amarela. Luz que já existe no lugar, só reforçada.</p></div><span class="count">7</span></header><div class="grid"><a class="card" href="https://www.instagram.com/p/DeoGmr4TnFP/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DeoGmr4TnFP.jpg" data-gif="gifs/DeoGmr4TnFP.gif" alt="Estacionamento subterrâneo, fluorescente"></div>
+<div class="meta"><h3>Estacionamento subterrâneo, fluorescente</h3><p>Pilares verdes, faixa amarela e só a luz do teto. É o visual &#x27;luz improvisada quase natural&#x27; na veia.</p><span class="by">@walrusmedia_videography ↗</span></div></a><a class="card" href="https://www.instagram.com/p/DU3UCMFiIMN/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DU3UCMFiIMN.jpg" data-gif="gifs/DU3UCMFiIMN.gif" alt="Fitcheck no subsolo"></div>
+<div class="meta"><h3>Fitcheck no subsolo</h3><p>Grande-angular com o corredor do estacionamento em perspectiva e cor ciano/teal. Gravado com action cam.</p><span class="by">@futurist__ ↗</span></div></a><a class="card" href="https://www.instagram.com/p/DBa4mGRsmSl/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DBa4mGRsmSl.jpg" data-gif="gifs/DBa4mGRsmSl.gif" alt="Retrato cinematográfico no subsolo"></div>
+<div class="meta"><h3>Retrato cinematográfico no subsolo</h3><p>Câmera baixa na mão, as luminárias do teto viram linhas de luz e o contraste é bem alto.</p><span class="by">@bymadschristensen ↗</span></div></a><a class="card" href="https://www.instagram.com/p/DAlpeRmyGuN/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DAlpeRmyGuN.jpg" data-gif="gifs/DAlpeRmyGuN.gif" alt="Luz dura entrando no estacionamento"></div>
+<div class="meta"><h3>Luz dura entrando no estacionamento</h3><p>Recorte de sol duro no chão de concreto e moto parada. Close no pé, depois o plano aberto.</p><span class="by">@sstaceyfilms ↗</span></div></a><a class="card" href="https://www.instagram.com/p/Det8CkMNzPZ/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/Det8CkMNzPZ.jpg" data-gif="gifs/Det8CkMNzPZ.gif" alt="Piloto + capacete no deck coberto"></div>
+<div class="meta"><h3>Piloto + capacete no deck coberto</h3><p>Macacão e capacete como peça de moda, fundo de estacionamento desfocado. Edição com troca de capacete no corte.</p><span class="by">@bikeroutfitamsterdam ↗</span></div></a><a class="card" href="https://www.instagram.com/p/Dc3XLhgohM4/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/Dc3XLhgohM4.jpg" data-gif="gifs/Dc3XLhgohM4.gif" alt="Espelho convexo do estacionamento"></div>
+<div class="meta"><h3>Espelho convexo do estacionamento</h3><p>Usa o espelho de segurança como moldura. Detalhe barato e com muita cara de editorial.</p><span class="by">@zain.mic ↗</span></div></a><a class="card" href="https://www.instagram.com/p/DcX9HGYoM_f/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DcX9HGYoM_f.jpg" data-gif="gifs/DcX9HGYoM_f.gif" alt="Heist da meia-noite"></div>
+<div class="meta"><h3>Heist da meia-noite</h3><p>Drone de cima do estacionamento à noite, depois faróis entrando no subsolo. Bom pra abrir o filme.</p><span class="by">@underratedclub_official ↗</span></div></a></div></section>
+<section id="aberto"><header class="sh"><span class="num">02</span><div><h2>Rooftop aberto · manhã e golden hour</h2><p>Último andar com prédios ao fundo. Nascer do sol ou blue hour pra ter céu com cor.</p></div><span class="count">4</span></header><div class="grid"><a class="card" href="https://www.instagram.com/p/DeuSp20q2Pw/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DeuSp20q2Pw.jpg" data-gif="gifs/DeuSp20q2Pw.gif" alt="Rooftop no nascer do sol"></div>
+<div class="meta"><h3>Rooftop no nascer do sol</h3><p>Sol estourando entre os prédios e depois o carro sob a laje. Tem as duas versões, aberta e fechada.</p><span class="by">@ziedouinniche ↗</span></div></a><a class="card" href="https://www.instagram.com/p/Dew_xtwSCfm/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/Dew_xtwSCfm.jpg" data-gif="gifs/Dew_xtwSCfm.gif" alt="Último andar + torres de vidro"></div>
+<div class="meta"><h3>Último andar + torres de vidro</h3><p>Golden hour com prédios espelhados ao fundo. É exatamente o &#x27;prédios de fundo&#x27; do briefing.</p><span class="by">@bimmer.plug ↗</span></div></a><a class="card" href="https://www.instagram.com/p/DfVMCmVIRsP/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DfVMCmVIRsP.jpg" data-gif="gifs/DfVMCmVIRsP.gif" alt="Rooftop em Milão, céu rosa"></div>
+<div class="meta"><h3>Rooftop em Milão, céu rosa</h3><p>Céu de blue hour e guindastes. Câmera na mão com rastro de pneu no chão.</p><span class="by">@hard_no_rich ↗</span></div></a><a class="card" href="https://www.instagram.com/p/DLaup5VT8gQ/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DLaup5VT8gQ.jpg" data-gif="gifs/DLaup5VT8gQ.gif" alt="Wheelie na blue hour"></div>
+<div class="meta"><h3>Wheelie na blue hour</h3><p>Marca de apparel moto: costas da jaqueta com lanterna traseira acesa, depois farol vindo pra câmera.</p><span class="by">@mistakencollective ↗</span></div></a></div></section>
+<section id="moto"><header class="sh"><span class="num">03</span><div><h2>Harley & cultura drag</h2><p>O mundo real do público: clubstyle, largada, burnout e travelling.</p></div><span class="count">5</span></header><div class="grid"><a class="card" href="https://www.instagram.com/p/DOW41uNiGBd/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DOW41uNiGBd.jpg" data-gif="gifs/DOW41uNiGBd.gif" alt="Harley clubstyle num estacionamento"></div>
+<div class="meta"><h3>Harley clubstyle num estacionamento</h3><p>Low Rider em estacionamento de mercado, fim de tarde. Mostra que o lugar comum funciona.</p><span class="by">@not.tdy ↗</span></div></a><a class="card" href="https://www.instagram.com/p/DcAqrzLM29n/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DcAqrzLM29n.jpg" data-gif="gifs/DcAqrzLM29n.gif" alt="Em pé na Harley"></div>
+<div class="meta"><h3>Em pé na Harley</h3><p>Atitude de clube, prédios ao fundo e câmera em travelling paralelo.</p><span class="by">@menofmayhemhamburg ↗</span></div></a><a class="card" href="https://www.instagram.com/p/DVbg3xZld9C/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DVbg3xZld9C.jpg" data-gif="gifs/DVbg3xZld9C.gif" alt="Largada de drag bike"></div>
+<div class="meta"><h3>Largada de drag bike</h3><p>Postura de largada e asfalto molhado. Referência do mundo real do público da Underrider.</p><span class="by">@moyeracingvids ↗</span></div></a><a class="card" href="https://www.instagram.com/p/DLjp4ieuB0e/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DLjp4ieuB0e.jpg" data-gif="gifs/DLjp4ieuB0e.gif" alt="Burnout de roll racing"></div>
+<div class="meta"><h3>Burnout de roll racing</h3><p>Fumaça de pneu contra luz de dia dura. Dá pra recriar com burnout no estacionamento aberto.</p><span class="by">@sand.shoots ↗</span></div></a><a class="card" href="https://www.instagram.com/p/CLjZmTdo6p1/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/CLjZmTdo6p1.jpg" data-gif="gifs/CLjZmTdo6p1.gif" alt="Travelling P&amp;B"></div>
+<div class="meta"><h3>Travelling P&amp;B</h3><p>Harley de perfil, preto e branco contrastado. Plano de carro-câmera simples.</p><span class="by">@sawbonesmesslife ↗</span></div></a></div></section>
+<section id="luz"><header class="sh"><span class="num">04</span><div><h2>Luz improvisada & textura</h2><p>Farol, poste e poeira como fonte de luz. Grão e contraste puxados na cor.</p></div><span class="count">4</span></header><div class="grid"><a class="card" href="https://www.instagram.com/p/DZPt10Pux9f/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DZPt10Pux9f.jpg" data-gif="gifs/DZPt10Pux9f.gif" alt="Só o farol como luz"></div>
+<div class="meta"><h3>Só o farol como luz</h3><p>Noite sem iluminação, o farol da moto é a única fonte. É a luz improvisada mais barata que existe.</p><span class="by">@dropbackhopp ↗</span></div></a><a class="card" href="https://www.instagram.com/p/De2foETJenj/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/De2foETJenj.jpg" data-gif="gifs/De2foETJenj.gif" alt="Jaqueta à noite, luz de rua"></div>
+<div class="meta"><h3>Jaqueta à noite, luz de rua</h3><p>Peça de roupa como protagonista, iluminada pelo poste e pelo carro. Grão de celular puxado.</p><span class="by">@cherubim.engr ↗</span></div></a><a class="card" href="https://www.instagram.com/p/DdozAQwuTRL/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DdozAQwuTRL.jpg" data-gif="gifs/DdozAQwuTRL.gif" alt="Poeira e contraluz"></div>
+<div class="meta"><h3>Poeira e contraluz</h3><p>Detalhe do pé no pedal e depois a moto saindo da poeira. Textura que pode virar fumaça de burnout.</p><span class="by">@rec_fr ↗</span></div></a><a class="card" href="https://www.instagram.com/p/DfXl68sM29T/" target="_blank" rel="noopener">
+<div class="media"><img src="gifs/DfXl68sM29T.jpg" data-gif="gifs/DfXl68sM29T.gif" alt="Piloto no céu limpo"></div>
+<div class="meta"><h3>Piloto no céu limpo</h3><p>Câmera baixa contra o céu, cor saturada de manhã. Contraponto diurno pro noturno.</p><span class="by">@sallyhadin ↗</span></div></a></div></section>
+
+</main>
+<footer><div class="wrap">24 referências · prévias curtas só pra moodboard interno, todos os direitos são dos criadores. Clique em qualquer card pra ver o post original no Instagram.</div></footer>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{const i=e.target;if(e.isIntersecting&&i.dataset.gif){i.src=i.dataset.gif;delete i.dataset.gif;io.unobserve(i)}}),{rootMargin:'300px'});
+document.querySelectorAll('img[data-gif]').forEach(i=>io.observe(i));
+</script>
+</body>
+</html>
