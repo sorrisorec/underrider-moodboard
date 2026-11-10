@@ -73,6 +73,12 @@ section{padding:72px 0 16px;scroll-margin-top:44px}
 .looks img{width:100%;height:100%;object-fit:cover}
 .looks figcaption{position:absolute;left:6px;bottom:6px;background:rgba(0,0,0,.7);padding:2px 6px}
 
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.stats b{color:var(--copper)}
+.stats .big{margin:8px 0 6px}
+.stats p{color:var(--dim);font-size:14px}
+.insight{margin-top:18px;border-left:3px solid var(--red);padding:6px 0 6px 16px;font-size:16px;color:#cfcac1;max-width:80ch}
+.insight em{font-style:normal;color:var(--ink);text-decoration:underline;text-decoration-color:var(--red);text-underline-offset:3px}
 /* caminhos */
 .path{border:1px solid var(--line);margin-bottom:28px}
 .path-head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;padding:26px 26px 22px;border-bottom:1px solid var(--line);align-items:start}
@@ -134,7 +140,7 @@ footer{border-top:1px solid var(--line);margin-top:72px;padding:28px 0 56px;colo
  .facts div:nth-child(-n+2),.why div:nth-child(-n+2){border-bottom:1px solid var(--line)}
  .path-head{grid-template-columns:minmax(0,1fr)}
  .specs{min-width:0}
- .next{grid-template-columns:1fr}
+ .next,.stats{grid-template-columns:1fr}
 }
 @media (max-width:560px){
  .wrap{padding:0 16px}
@@ -167,6 +173,7 @@ footer{border-top:1px solid var(--line);margin-top:72px;padding:28px 0 56px;colo
 
 <nav><div class="wrap">
  <a class="mono" href="#entregas">00 Entregas</a>
+ <a class="mono" href="#contexto">Contexto</a>
  <a class="mono" href="#estacionamento">01 Estacionamento</a>
  <a class="mono" href="#tv">02 TV Grunge</a>
  <a class="mono" href="#encontro">03 Encontro Harley</a>
@@ -202,6 +209,16 @@ footer{border-top:1px solid var(--line);margin-top:72px;padding:28px 0 56px;colo
    </div>
   </div>
  </div>
+</section>
+
+<section id="contexto">
+ <header class="sh"><span class="num">↗</span><div><h2 class="display">O que o perfil já mostra</h2><p>Leitura rápida dos últimos reels do @underrideroficial. Os números são as visualizações públicas de cada vídeo.</p></div></header>
+ <div class="stats">
+  <div class="box"><b class="mono">Drag race &amp; info</b><div class="big">3–9k</div><p>Cronograma, categorias e equipamentos da Liberty Drag Race. É o conteúdo que mais circula.</p></div>
+  <div class="box"><b class="mono">Humor de piloto</b><div class="big">6,5k</div><p>"Como convencer tua mulher a deixar tu comprar uma moto." Fala a língua do público.</p></div>
+  <div class="box"><b class="mono">Produto posado</b><div class="big">170–380</div><p>Looks na speedshop, com luz baixa e pose de estúdio. É bonito, mas não passa movimento.</p></div>
+ </div>
+ <p class="insight"><b>O que isso diz pro shooting:</b> o público para pra ver moto, pista e atitude. A peça performa melhor quando aparece <em>em uso</em>, com a moto ligada, saindo, acelerando, e não só posada. Também é a hora de sair da speedshop, que já apareceu bastante, e mostrar a roupa em outro cenário real.</p>
 </section>
 
 <section id="caminhos" style="padding-bottom:0">
